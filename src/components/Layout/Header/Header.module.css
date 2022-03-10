@@ -5,14 +5,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
+  padding: 0 1% 0 5%;
 }
 
 .header nav {
     display: flex;
     align-items: center;
 }
-    
+
 .header ul {
   list-style: none;
   margin: 0;
@@ -31,22 +31,6 @@
   font-weight: bold;
 }
 
-.header button {
-  font: inherit;
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
 .header a:hover {
   color: #e6e0c6;
-}
-
-.header button:hover {
-  background-color: #e6e0c6;
-  color: #38015c;
 }
