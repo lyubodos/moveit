@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../../UI/Button';
 
 import classes from "./Header.module.css";
 
@@ -21,6 +22,7 @@ export default function Header() {
                         <Link to="/search">Search</Link>
                     </li>
                 </ul>
+                <Button>Login</Button>
             </nav>
         </header>
   )
