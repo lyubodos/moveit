@@ -3,6 +3,7 @@ import Hero from "./Hero/Hero";
 
 import movieCover from "../../../assets/movie-cover.jpeg";
 import classes from "./Home.module.css";
+import HeroSearch from "./Hero/HeroSearch";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         alt="movie-cover"
       />
       <Hero />
+      <HeroSearch/>
     </div>
   );
 }

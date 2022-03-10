@@ -1,0 +1,39 @@
+.search_container{
+    text-align: center;
+    border-top: 10px solid #2c9fe2;
+    padding: 2rem;
+    margin: auto;
+    height: 18.75rem;
+    align-items: center;
+    background-image: url(https://s3-us-west-2.amazonaws.com/prd-rteditorial/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg);
+}
+
+.search_container h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search_container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.search_container label{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.search_container input{
+    height: 30px;
+    width: 500px;
+}
+
+
+.search_container input:focus{
+    background-color: #cce2ee;
+}
+
