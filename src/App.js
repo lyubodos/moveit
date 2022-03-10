@@ -1,16 +1,12 @@
 import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Header from './components/Layout/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-  
-      </header>
-    </div>
+   <Router>
+    <Header />
+   </Router>
   );
 }
 
